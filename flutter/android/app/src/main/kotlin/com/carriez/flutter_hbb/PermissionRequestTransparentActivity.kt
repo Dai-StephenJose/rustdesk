@@ -1,4 +1,4 @@
-package com.carriez.flutter_hbb
+package com.zwtech.godesk
 
 import android.app.Activity
 import android.content.Intent

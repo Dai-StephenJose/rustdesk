@@ -2,7 +2,7 @@ use hbb_common::regex::Regex;
 use std::ops::Deref;
 
 mod cn;
-mod eu;
+mod en;
 mod tw;
 
 pub const LANGS: &[(&str, &str)] = &[
@@ -43,7 +43,6 @@ pub fn translate_locale(name: String, locale: &str) -> String {
     let m = match lang.as_str() {
         "zh-cn" => cn::T.deref(),
         "zh-tw" => tw::T.deref(),
-        "eu" => eu::T.deref(),
         _ => en::T.deref(),
     };
     let (name, placeholder_value) = extract_placeholder(&name);

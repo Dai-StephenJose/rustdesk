@@ -2,7 +2,7 @@
 name = "godesk"
 version = "1.4.0"
 authors = ["godesk <stephenjose_dai@zwyk.dpdns.org>"]
-edition = "2024"
+edition = "2021"
 build= "build.rs"
 description = "GoDesk Remote Desktop"
 default-run = "godesk"

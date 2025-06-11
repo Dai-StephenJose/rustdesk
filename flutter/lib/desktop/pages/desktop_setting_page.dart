@@ -2177,7 +2177,6 @@ class _AboutState extends State<_About> {
       return {
         'license': license,
         'version': version,
-        'buildDate': buildDate,
         'fingerprint': fingerprint
       };
     }(), hasData: (data) {
@@ -2208,7 +2207,7 @@ class _AboutState extends State<_About> {
                         .marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com/privacy.html');
+                    launchUrlString('https://www.zwyktech.cn');
                   },
                   child: Text(
                     translate('Privacy Statement'),
@@ -2216,7 +2215,7 @@ class _AboutState extends State<_About> {
                   ).marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://rustdesk.com');
+                    launchUrlString('https://www.zwyktech.cn');
                   },
                   child: Text(
                     translate('Website'),

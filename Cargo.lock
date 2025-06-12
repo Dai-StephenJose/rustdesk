@@ -5919,7 +5919,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustdesk"
+name = "godesk"
 version = "1.4.0"
 dependencies = [
  "android-wakelock",
@@ -6021,7 +6021,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustdesk-portable-packer"
+name = "godesk-portable-packer"
 version = "1.4.0"
 dependencies = [
  "brotli",

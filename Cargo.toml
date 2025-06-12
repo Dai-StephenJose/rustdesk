@@ -5,7 +5,7 @@ authors = ["godesk <stephenjose_dai@zwyk.dpdns.org>"]
 edition = "2021"
 build= "build.rs"
 description = "GoDesk Remote Desktop"
-default-run = "rustdesk"
+default-run = "godesk"
 rust-version = "1.75"
 
 [lib]
@@ -189,10 +189,10 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
-ProductName = "RustDesk"
-FileDescription = "RustDesk Remote Desktop"
-OriginalFilename = "rustdesk.exe"
+LegalCopyright = "Copyright © 2025 ZhiwangYunke Ltd. All rights reserved."
+ProductName = "GoDesk"
+FileDescription = "GoDesk Remote Desktop"
+OriginalFilename = "godesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
@@ -209,7 +209,7 @@ docopt = "1.1"
 
 [package.metadata.bundle]
 name = "GoDesk"
-identifier = "com.carriez.rustdesk"
+identifier = "com.zwtech.godesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 

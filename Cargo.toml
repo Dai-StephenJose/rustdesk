@@ -190,7 +190,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 ZhiwangYunke Ltd. All rights reserved."
-ProductName = "GoDesk"
+ProductName = "RustDesk"
 FileDescription = "GoDesk Remote Desktop"
 OriginalFilename = "rustdesk.exe"
 

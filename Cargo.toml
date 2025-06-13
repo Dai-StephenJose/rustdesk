@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "godesk"
 version = "1.4.0"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["godesk <stephenjose_dai@zwyk.dpdns.org>"]
 edition = "2021"
 build= "build.rs"
 description = "GoDesk Remote Desktop"
-default-run = "rustdesk"
+default-run = "godesk"
 rust-version = "1.75"
 
 [lib]

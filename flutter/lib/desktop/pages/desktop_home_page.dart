@@ -436,7 +436,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
       final isToUpdate = (isWindows || isMacOS) && bind.mainIsInstalled();
       String btnText = isToUpdate ? 'Click to update' : 'Click to download';
       GestureTapCallback onPressed = () async {
-        final Uri url = Uri.parse('https://www.zwyktech.cn');
+        final Uri url = Uri.parse('https://rustdesk.com/download');
         await launchUrl(url);
       };
       if (isToUpdate) {

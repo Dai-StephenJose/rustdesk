@@ -2177,6 +2177,7 @@ class _AboutState extends State<_About> {
       return {
         'license': license,
         'version': version,
+        'buildDate': buildDate,
         'fingerprint': fingerprint
       };
     }(), hasData: (data) {
@@ -2188,7 +2189,7 @@ class _AboutState extends State<_About> {
       final scrollController = ScrollController();
       return SingleChildScrollView(
         controller: scrollController,
-        child: _Card(title: translate('About GoDesk'), children: [
+        child: _Card(title: translate('About RustDesk'), children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -2207,7 +2208,7 @@ class _AboutState extends State<_About> {
                         .marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://www.zwyktech.cn');
+                    launchUrlString('https://rustdesk.com/privacy.html');
                   },
                   child: Text(
                     translate('Privacy Statement'),
@@ -2215,7 +2216,7 @@ class _AboutState extends State<_About> {
                   ).marginSymmetric(vertical: 4.0)),
               InkWell(
                   onTap: () {
-                    launchUrlString('https://www.zwyktech.cn');
+                    launchUrlString('https://rustdesk.com');
                   },
                   child: Text(
                     translate('Website'),

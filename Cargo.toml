@@ -1,11 +1,11 @@
 [package]
-name = "godesk"
+name = "rustdesk"
 version = "1.4.0"
-authors = ["godesk <stephenjose_dai@zwyk.dpdns.org>"]
+authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "GoDesk Remote Desktop"
-default-run = "godesk"
+description = "RustDesk Remote Desktop"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
@@ -190,9 +190,9 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
-ProductName = "GoDesk"
-FileDescription = "GoDesk Remote Desktop"
-OriginalFilename = "godesk.exe"
+ProductName = "RustDesk"
+FileDescription = "RustDesk Remote Desktop"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"

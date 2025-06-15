@@ -20,7 +20,7 @@ native-windows-gui = {version = "1.0", default-features = false, features = ["an
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 ZhiwangYunke Ltd. All rights reserved."
 ProductName = "GoDesk"
-OriginalFilename = "rustdesk.exe"
+OriginalFilename = "godesk.exe"
 FileDescription = "GoDesk Remote Desktop"
 #ProductVersion = ""
 

@@ -192,7 +192,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 LegalCopyright = "Copyright © 2025 ZhiwangYunke Ltd. All rights reserved."
 ProductName = "GoDesk"
 FileDescription = "GoDesk Remote Desktop"
-OriginalFilename = "godesk.exe"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"

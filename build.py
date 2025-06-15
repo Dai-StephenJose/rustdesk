@@ -496,7 +496,7 @@ def main():
             build_flutter_windows(version, features, args.skip_portable_pack)
             return
         system2('cargo build --release --features ' + features)
-        # system2('upx.exe target/release/rustdesk.exe')
+        # system2('upx.exe target/release/GoDesk.exe')
         system2('mv target/release/godesk.exe target/release/GoDesk.exe')
         pa = os.environ.get('P')
         if pa:
@@ -507,7 +507,7 @@ def main():
         else:
             print('Not signed')
         system2(
-            f'cp -rf target/release/RustDesk.exe {res_dir}')
+            f'cp -rf target/release/GoDesk.exe {res_dir}')
         os.chdir('libs/portable')
         system2('pip3 install -r requirements.txt')
         system2(

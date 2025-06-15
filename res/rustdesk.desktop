@@ -2,7 +2,7 @@
 Name=GoDesk
 GenericName=Remote Desktop
 Comment=Remote Desktop
-Exec=godesk %u
+Exec=rustdesk %u
 Icon=rustdesk
 Terminal=false
 Type=Application
@@ -16,4 +16,4 @@ X-Desktop-File-Install-Version=0.23
 
 [Desktop Action new-window]
 Name=Open a New Window
-Exec=godesk %u
+Exec=rustdesk %u
